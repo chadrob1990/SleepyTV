@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7b5459c1.js",
+    "static/js/65.662556ae.js": "/static/js/65.662556ae.js",
+    "static/media/sleepytv_background_big.png": "/static/media/sleepytv_background_big.92a9c7dc69480fde9afe.png",
+    "static/media/Inter_800ExtraBold.ttf": "/static/media/Inter_800ExtraBold.e4a4cb7133001f282a15.ttf",
+    "static/media/Inter_900Black.ttf": "/static/media/Inter_900Black.143c28420846d45c5834.ttf",
+    "static/media/Inter_700Bold.ttf": "/static/media/Inter_700Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter_600SemiBold.ttf": "/static/media/Inter_600SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter_500Medium.ttf": "/static/media/Inter_500Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter_200ExtraLight.ttf": "/static/media/Inter_200ExtraLight.1815b9a8a67debdb3966.ttf",
+    "static/media/Inter_100Thin.ttf": "/static/media/Inter_100Thin.f341ca512063c66296d1.ttf",
+    "static/media/Inter_300Light.ttf": "/static/media/Inter_300Light.eec8664621fec98efb37.ttf",
+    "static/media/Inter_400Regular.ttf": "/static/media/Inter_400Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/FontAwesome5_Solid.ttf": "/static/media/FontAwesome5_Solid.07c3313b24f7b1ca85ee.ttf",
+    "static/media/FontAwesome5_Brands.ttf": "/static/media/FontAwesome5_Brands.9e138496e8f1719c6ebf.ttf",
+    "static/media/FontAwesome5_Regular.ttf": "/static/media/FontAwesome5_Regular.1017bce89c72f95bcf8e.ttf",
+    "static/media/Boogaloo_400Regular.ttf": "/static/media/Boogaloo_400Regular.fca21c9d1c17e5abca09.ttf",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "manifest.json": "/manifest.json",
+    "favicon-16.png": "/favicon-16.png",
+    "serve.json": "/serve.json",
+    "main.7b5459c1.js.map": "/static/js/main.7b5459c1.js.map",
+    "65.662556ae.js.map": "/static/js/65.662556ae.js.map"
+  },
+  "entrypoints": [
+    "static/js/65.662556ae.js",
+    "static/js/main.7b5459c1.js"
+  ]
+}
