@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "experiments": {
+      "baseUrl": "/expo-gh-pages"
+    },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
