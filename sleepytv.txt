@@ -1,0 +1,120 @@
+Sprint 1
+Might need to do Rasberry Pi (or cheap PC) with basic keyboard/controller that I map to keys
+ECD 1/31
+
+
+
+Sprint 2
+Store settings
+Setup photo gallary
+Setup sub pages for group settings (e.g., expose list settings lockable, name, icon...)
+Setup ability to add/remove groups
+Setup ability to signin with YouTube
+Cleanup code
+Find/make more playlists
+Sideload Sleepy P1
+
+
+Sprint 3
+Number of videos lock state 
+Volume settings
+Brightness setting
+Background image settings
+Theme color settings
+Pulling YouTube account playlists and recommended playlists for ease of setting up new categories
+
+
+
+Controls (2 Functional Buttons, 4 Directional Buttons)
+Shift M = Open/Close Menu
+Escape = Close Menu & Video player
+Up, Down, Left, Right = Navigation
+
+
+
+
+
+
+
+
+
+
+
+**Running an Android Build**
+expo start --android (for running on emulator)
+
+View recent Expo builds here:
+https://expo.dev/accounts/chadrob
+https://docs.expo.dev/build-reference/apk/
+
+Capturing logs from FireStick
+https://help.testlio.com/en/articles/3289487-capturing-logs-from-a-streaming-devices
+adb logcat -v time > C:\Users\crobi\OneDrive\Documents\SleepTVAPK\logs.txt 
+
+Side Load
+https://www.youtube.com/watch?v=ASpWIQ2T75o
+
+0. Connect to the device via ADB (should already be done)
+adb connect [IP Address] 
+
+1. In app root run (e.g., cd C:\Users\crobi\OneDrive\Documents\SleepyTV)
+eas build -p android --profile preview
+
+2. At the end of the build grap the link (example below)
+https://expo.dev/artifacts/eas/6heBMdDz7zm1Qj3qA37zdW.apk
+
+3. Enter the link in the browser which will download the apk.
+
+4. Place the apk in C:\Users\crobi\OneDrive\Documents\SleepTVAPK
+
+5. Run the below command to install the app (replacing sleepytv.1.apk with latest version)
+adb install C:\Users\crobi\OneDrive\Documents\SleepTVAPK\sleepytv.1.apk
+
+
+
+
+
+Libraries
+React Native Youtube-iframe
+react-native-reanimated-carousel (not used)
+react-native-tvos (not used, but might have navigation code)
+Expo https://reactnative.dev/docs/building-for-tv?tv=tvos
+
+
+
+
+
+
+Done
+Setup YouTube API to pull video details for a Playlist
+Format Playlist into SleepyTV JSON Object
+	Include Group Name
+	Include Group Icon
+Apply SleepyTV object to UI
+Make just one list change selected state when navigating 
+	Need to know active list and pass down active state true/false to child
+Setup click to play video in full screen
+	[VideoPlayer true] Need to setup a state in App.js that will toggle list view and the full screen video player.
+	[videoid] Video player will need to know which thumbnail was last clicked and render the YouTube player.
+	[VideoPlayer false] Will need to setup a way to exit video player back to list view.
+Setup timer and lock/unlock states
+	Locked Icon
+	Dimming UI
+Navigate between lists with up and down arrows in a snapping way.
+	Should be able to reuse some code from the ContentView navigaiton
+Fix shifting text
+Setup settings pop up menu
+Setup lock timer settings
+Refine timer +/- intervals (e.g., increase 15 minutes, if uiTimer <15, uiTimer = 0, else decrese by 15 minutes)
+Fix timer settings UI
+Fix video lists not regenerating when settings timer is increased after being locked
+Timer should lock background navigation (video player should not pop up and navigating between thumbnails should be locked)
+Setup timer settings navigations
+Setup remote control functionality?
+Find/make playlists
+Remove ASMR from titles of videos
+Calm counting & ABC playlists
+Look up Wolf Launcher
+Issue with navigation when screen is locked (up down is having to click too many times and left/right is not working)
+	Side to side is working... but it is seeing all lists when navigating up and down (even if they are not there)
+Deploy to Netlify
