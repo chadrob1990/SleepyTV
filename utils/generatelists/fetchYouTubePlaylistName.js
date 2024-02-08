@@ -1,5 +1,6 @@
+import { apiKey } from "./key";
+
 const apiUrl = "https://youtube.googleapis.com/youtube/v3/playlists";
-const apiKey = "AIzaSyAOYNXxXjZus99aUs3CZfDkpaofX_eAO0k";
 
 const fetchYouTubePlaylistName = async (playlistId) => {
   try {

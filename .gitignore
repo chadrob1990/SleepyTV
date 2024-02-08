@@ -35,3 +35,6 @@ yarn-error.*
 
 # Local Netlify folder
 .netlify
+
+# Key
+key.js

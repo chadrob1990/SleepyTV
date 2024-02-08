@@ -25,9 +25,10 @@ Pulling YouTube account playlists and recommended playlists for ease of setting 
 
 
 
-Controls (2 Functional Buttons, 4 Directional Buttons)
+Controls (3 Functional Buttons, 4 Directional Buttons)
 Shift M = Open/Close Menu
 Escape = Close Menu & Video player
+Enter = Select
 Up, Down, Left, Right = Navigation
 
 
